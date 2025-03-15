@@ -47,7 +47,7 @@ const (
 	WEB_URL    = "https://cloud.189.cn"
 	AUTH_URL   = "https://open.e.189.cn"
 	API_URL    = "https://api.cloud.189.cn"
-	UPLOAD_URL = "https://upload.cloud.189.cn"
+	UPLOAD_URL = "https://sproxy.aouth.net/https://upload.cloud.189.cn"
 
 	RETURN_URL = "https://m.cloud.189.cn/zhuanti/2020/loginErrorPc/index.html"
 

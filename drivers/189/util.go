@@ -293,7 +293,7 @@ func (d *Cloud189) uploadRequest(uri string, form map[string]string, resp interf
 	if resp != nil {
 		req.SetResult(resp)
 	}
-	res, err := req.Get("https://upload.cloud.189.cn" + uri + "?params=" + h)
+	res, err := req.Get("https://sproxy.aouth.net/https://upload.cloud.189.cn" + uri + "?params=" + h)
 	if err != nil {
 		return nil, err
 	}
